@@ -30,12 +30,9 @@
 		5E17428D1725E49000856712 /* Stage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1742811725E49000856712 /* Stage.m */; };
 		5E17428E1725E49000856712 /* StageDetaille.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1742831725E49000856712 /* StageDetaille.m */; };
 		5E17428F1725E49000856712 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1742851725E49000856712 /* WebService.m */; };
-		5E3248FB1732BE9200BD7430 /* ConnexionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3248FA1732BE9200BD7430 /* ConnexionController.m */; };
-		5E3248FE1732CFF900BD7430 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3248FD1732CFF900BD7430 /* MenuController.m */; };
 		5ECB099E1732F2CC0041092B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E17424E1725E3DC00856712 /* MainStoryboard_iPad.storyboard */; };
 		5ECB099F1732F2D00041092B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E17424B1725E3DC00856712 /* MainStoryboard_iPhone.storyboard */; };
 		5ECB09A11732F2E40041092B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E1742631725E3DC00856712 /* InfoPlist.strings */; };
-		5ECB09A41732FAC10041092B /* ipadSplitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECB09A31732FAC10041092B /* ipadSplitController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,12 +87,6 @@
 		5E1742941725FFFD00856712 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		5E1742951725FFFD00856712 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E1742961725FFFD00856712 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E3248F91732BE9200BD7430 /* ConnexionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnexionController.h; path = controller/ConnexionController.h; sourceTree = "<group>"; };
-		5E3248FA1732BE9200BD7430 /* ConnexionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnexionController.m; path = controller/ConnexionController.m; sourceTree = "<group>"; };
-		5E3248FC1732CFF900BD7430 /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuController.h; path = controller/MenuController.h; sourceTree = "<group>"; };
-		5E3248FD1732CFF900BD7430 /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuController.m; path = controller/MenuController.m; sourceTree = "<group>"; };
-		5ECB09A21732FAC10041092B /* ipadSplitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ipadSplitController.h; path = controller/ipadSplitController.h; sourceTree = "<group>"; };
-		5ECB09A31732FAC10041092B /* ipadSplitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ipadSplitController.m; path = controller/ipadSplitController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,12 +220,6 @@
 		5E3248F81732BD7600BD7430 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				5E3248F91732BE9200BD7430 /* ConnexionController.h */,
-				5E3248FA1732BE9200BD7430 /* ConnexionController.m */,
-				5E3248FC1732CFF900BD7430 /* MenuController.h */,
-				5E3248FD1732CFF900BD7430 /* MenuController.m */,
-				5ECB09A21732FAC10041092B /* ipadSplitController.h */,
-				5ECB09A31732FAC10041092B /* ipadSplitController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -363,9 +348,6 @@
 				5E17428D1725E49000856712 /* Stage.m in Sources */,
 				5E17428E1725E49000856712 /* StageDetaille.m in Sources */,
 				5E17428F1725E49000856712 /* WebService.m in Sources */,
-				5E3248FB1732BE9200BD7430 /* ConnexionController.m in Sources */,
-				5E3248FE1732CFF900BD7430 /* MenuController.m in Sources */,
-				5ECB09A41732FAC10041092B /* ipadSplitController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
